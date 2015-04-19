@@ -1,0 +1,210 @@
+﻿Build started 12/11/2014 10:15:17 PM.
+     1>Project "C:\Users\djehm_000\Documents\Visual Studio 2013\Projects\CS432ProjectOne\CS432ProjectOne\CS432ProjectOne.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\djehm_000\Desktop\cs432Windows\glew-1.7.0\include" /IC:\Users\djehm_000\Desktop\cs432Windows\freeglut\include /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt asst3.cpp cs432.cpp floor_plan.cpp main.cpp main2.cpp mat.cpp matStack.cpp objparser.cpp picking.cpp ppm.cpp robotMain.cpp simpleMain2.cpp torus.cpp vec.cpp
+         asst3.cpp
+         cs432.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+         floor_plan.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(397): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(409): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(421): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(495): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(496): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(497): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(518): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(520): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(523): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(533): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(540): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\blobject.h(333): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\blobject.h(334): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(80): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(82): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(86): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(87): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(89): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(90): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(202): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(203): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(207): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>floor_plan.cpp(228): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>floor_plan.cpp(290): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>floor_plan.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>floor_plan.cpp(338): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>floor_plan.cpp(447): warning C4244: '-=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(451): warning C4244: '+=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(456): warning C4244: '-=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(460): warning C4244: '+=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1119): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1124): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(1129): warning C4305: '-=' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(1135): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1140): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(1145): warning C4305: '-=' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(1151): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1152): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1168): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1186): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1220): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1221): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1227): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1228): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1234): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1235): warning C4244: '-=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1236): warning C4244: '-=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1239): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1240): warning C4244: '+=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1241): warning C4244: '+=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>floor_plan.cpp(1294): warning C4305: '-=' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(1298): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(1306): warning C4305: '-=' : truncation from 'double' to 'GLfloat'
+     1>floor_plan.cpp(1310): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+         main.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(397): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(409): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(421): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(495): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(496): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(497): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(518): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(520): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(523): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(533): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(540): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>main.cpp(54): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(214): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+         main2.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(397): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(409): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(421): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(495): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(496): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(497): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(518): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(520): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(523): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(533): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(540): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>main2.cpp(115): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>main2.cpp(140): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>main2.cpp(143): warning C4244: '-=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>main2.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>main2.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>main2.cpp(213): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>main2.cpp(214): warning C4244: 'argument' : conversion from 'double' to 'const GLfloat', possible loss of data
+     1>main2.cpp(278): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main2.cpp(325): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>main2.cpp(343): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+         mat.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(397): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(409): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(421): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(495): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(496): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(497): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(518): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(520): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(523): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(533): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(540): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+         matStack.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(397): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(409): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(421): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(495): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(496): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(497): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(518): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(520): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(523): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(533): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(540): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+         objparser.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\blobject.h(333): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\blobject.h(334): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>objparser.cpp(83): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>objparser.cpp(374): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         picking.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>picking.cpp(85): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         ppm.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>ppm.cpp(25): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ppm.cpp(26): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ppm.cpp(27): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ppm.cpp(44): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ppm.cpp(50): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ppm.cpp(59): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>ppm.cpp(70): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+         robotMain.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(397): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(409): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(421): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(495): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(496): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(497): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(518): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(520): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(523): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(533): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(540): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>robotMain.cpp(423): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>robotMain.cpp(438): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+         simpleMain2.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(397): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(409): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(421): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(495): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(496): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(497): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(518): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(520): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(523): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(533): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\mat.h(540): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>simpleMain2.cpp(52): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>simpleMain2.cpp(185): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>simpleMain2.cpp(236): warning C4244: 'argument' : conversion from 'const int' to 'const GLfloat', possible loss of data
+         torus.cpp
+     1>c:\users\djehm_000\documents\visual studio 2013\projects\cs432projectone\cs432projectone\cs432.h(71): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>torus.cpp(40): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>torus.cpp(41): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>torus.cpp(42): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>torus.cpp(43): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+         vec.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\djehm_000\Documents\Visual Studio 2013\Projects\CS432ProjectOne\Release\CS432ProjectOne.exe" /NOLOGO /LIBPATH:"C:\Users\djehm_000\Desktop\cs432Windows\glew-1.7.0\lib" /LIBPATH:C:\Users\djehm_000\Desktop\cs432Windows\freeglut\lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\djehm_000\Documents\Visual Studio 2013\Projects\CS432ProjectOne\Release\CS432ProjectOne.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\djehm_000\Documents\Visual Studio 2013\Projects\CS432ProjectOne\Release\CS432ProjectOne.lib" /MACHINE:X86 /SAFESEH Release\asst3.obj
+         Release\cs432.obj
+         Release\floor_plan.obj
+         Release\main.obj
+         Release\main2.obj
+         Release\mat.obj
+         Release\matStack.obj
+         Release\objparser.obj
+         Release\picking.obj
+         Release\ppm.obj
+         Release\robotMain.obj
+         Release\simpleMain2.obj
+         Release\torus.obj
+         Release\vec.obj
+         Generating code
+         Finished generating code
+         CS432ProjectOne.vcxproj -> C:\Users\djehm_000\Documents\Visual Studio 2013\Projects\CS432ProjectOne\Release\CS432ProjectOne.exe
+     1>Done Building Project "C:\Users\djehm_000\Documents\Visual Studio 2013\Projects\CS432ProjectOne\CS432ProjectOne\CS432ProjectOne.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.62

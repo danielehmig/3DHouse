@@ -1,0 +1,2 @@
+After glReadPixels(): 1282
+After glDrawPixels(): 0

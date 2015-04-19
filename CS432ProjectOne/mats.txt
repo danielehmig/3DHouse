@@ -1,0 +1,606 @@
+OBJECT: Plane.230_Plane.231
+Material: Concrete
+
+OBJECT: Cube.013
+Material: None
+
+OBJECT: Plane.228_Plane.229
+Material: WindowPane
+
+OBJECT: Cube.012
+Material: InnerWall
+
+OBJECT: Plane.225_Plane.226
+Material: WindowPane
+
+OBJECT: Plane.223_Plane.224
+Material: WindowPane
+
+OBJECT: Cube.010
+Material: None
+
+OBJECT: Plane.221_Plane.222
+Material: None
+
+OBJECT: Plane.220_Plane.221
+Material: None
+
+OBJECT: Plane.218_Plane.052
+Material: None
+
+OBJECT: Cube.009
+Material: None
+
+OBJECT: Plane.216_Plane.218
+Material: InnerWall
+
+OBJECT: Plane.214_Plane.216
+Material: None
+
+OBJECT: Plane.212_Plane.214
+Material: None
+
+OBJECT: Plane.209_Plane.211
+Material: None
+
+OBJECT: Plane.208_Plane.210
+Material: None
+
+OBJECT: Plane.207_Plane.209
+Material: InnerWall
+
+OBJECT: Plane.206_Plane.208
+Material: InnerWall
+
+OBJECT: Cube.007
+Material: OuterWall
+
+OBJECT: Plane.187_Plane.189
+Material: Grass
+
+OBJECT: Plane.047_Plane.048
+Material: InnerWall
+
+OBJECT: Plane.045_Plane.046
+Material: InnerWall
+
+OBJECT: Cube.004
+Material: InnerWall
+
+OBJECT: Cube.003
+Material: InnerWall
+
+OBJECT: Plane.044
+Material: InnerWall
+
+OBJECT: Plane.042
+Material: InnerWall
+
+OBJECT: Plane.040
+Material: Roof
+
+OBJECT: Plane.039
+Material: InnerWall
+
+OBJECT: Plane.038
+Material: InnerWall
+
+OBJECT: Plane.037
+Material: InnerWall
+
+OBJECT: Cube.001
+Material: InnerWall
+
+OBJECT: Plane.036
+Material: InnerWall
+
+OBJECT: Plane.034
+Material: InnerWall
+
+OBJECT: Plane.032
+Material: InnerWall
+
+OBJECT: Plane.030
+Material: InnerWall
+
+OBJECT: Plane.028
+Material: InnerWall
+
+OBJECT: Plane.024
+Material: InnerWall
+
+OBJECT: Plane.023
+Material: InnerWall
+
+OBJECT: Plane.020
+Material: InnerWall
+
+OBJECT: Plane.019
+Material: InnerWall
+
+OBJECT: Plane.018
+Material: InnerWall
+
+OBJECT: Plane.017
+Material: None
+
+OBJECT: Plane.016
+Material: InnerWall
+
+OBJECT: Plane.015
+Material: InnerWall
+
+OBJECT: Plane.014
+Material: InnerWall
+
+OBJECT: Plane.013
+Material: InnerWall
+
+OBJECT: Plane.012
+Material: InnerWall
+
+OBJECT: Plane.011
+Material: InnerWall
+
+OBJECT: Plane.010
+Material: Roof
+
+OBJECT: Plane.006
+Material: Roof
+
+OBJECT: Plane.002
+Material: Roof
+
+OBJECT: Plane
+Material: OuterWall
+
+OBJECT: Cube
+Material: OuterWall
+
+OBJECT: Plane.001
+Material: OuterWall
+
+OBJECT: Plane.003
+Material: Roof
+
+OBJECT: Plane.004
+Material: Roof
+
+OBJECT: Plane.005
+Material: Roof
+
+OBJECT: Plane.007
+Material: Roof
+
+OBJECT: Plane.008
+Material: Roof
+
+OBJECT: Plane.009
+Material: Roof
+
+OBJECT: Plane.021
+Material: InnerWall
+
+OBJECT: Plane.022
+Material: InnerWall
+
+OBJECT: Plane.025
+Material: InnerWall
+
+OBJECT: Plane.026
+Material: InnerWall
+
+OBJECT: Plane.027
+Material: InnerWall
+
+OBJECT: Plane.029
+Material: InnerWall
+
+OBJECT: Plane.031
+Material: InnerWall
+
+OBJECT: Plane.033
+Material: InnerWall
+
+OBJECT: Plane.035
+Material: InnerWall
+
+OBJECT: Cube.002
+Material: InnerWall
+
+OBJECT: Plane.041
+Material: Roof
+
+OBJECT: Plane.043
+Material: InnerWall
+
+OBJECT: Cube.005
+Material: InnerWall
+
+OBJECT: Cube.006
+Material: InnerWall
+
+OBJECT: Plane.046_Plane.047
+Material: InnerWall
+
+OBJECT: Plane.048_Plane.049
+Material: InnerWall
+
+OBJECT: Plane.049_Plane.050
+Material: InnerWall
+
+OBJECT: Plane.050_Plane.051
+Material: InnerWall
+
+OBJECT: Plane.051_Plane.045
+Material: Roof.001
+
+OBJECT: Plane.072_Plane.073
+Material: Grass
+
+OBJECT: Plane.073_Plane.074
+Material: Grass
+
+OBJECT: Plane.074_Plane.075
+Material: Grass
+
+OBJECT: Plane.075_Plane.076
+Material: Grass
+
+OBJECT: Plane.077_Plane.078
+Material: Grass
+
+OBJECT: Plane.078_Plane.079
+Material: Grass
+
+OBJECT: Plane.081_Plane.082
+Material: Grass
+
+OBJECT: Plane.052_Plane.053
+Material: Grass
+
+OBJECT: Plane.053_Plane.054
+Material: Grass
+
+OBJECT: Plane.054_Plane.055
+Material: Grass
+
+OBJECT: Plane.055_Plane.056
+Material: Grass
+
+OBJECT: Plane.056_Plane.057
+Material: Grass
+
+OBJECT: Plane.057_Plane.058
+Material: Grass
+
+OBJECT: Plane.058_Plane.059
+Material: Grass
+
+OBJECT: Plane.059_Plane.060
+Material: Grass
+
+OBJECT: Plane.060_Plane.061
+Material: Grass
+
+OBJECT: Plane.061_Plane.062
+Material: Grass
+
+OBJECT: Plane.062_Plane.063
+Material: Grass
+
+OBJECT: Plane.063_Plane.064
+Material: Grass
+
+OBJECT: Plane.064_Plane.065
+Material: Grass
+
+OBJECT: Plane.065_Plane.066
+Material: Grass
+
+OBJECT: Plane.066_Plane.067
+Material: Grass
+
+OBJECT: Plane.067_Plane.068
+Material: Grass
+
+OBJECT: Plane.068_Plane.069
+Material: Grass
+
+OBJECT: Plane.069_Plane.070
+Material: Grass
+
+OBJECT: Plane.070_Plane.071
+Material: Grass
+
+OBJECT: Plane.071_Plane.072
+Material: Grass
+
+OBJECT: Plane.102_Plane.103
+Material: Grass
+
+OBJECT: Plane.105_Plane.106
+Material: Grass
+
+OBJECT: Plane.106_Plane.107
+Material: Grass
+
+OBJECT: Plane.109_Plane.110
+Material: Grass
+
+OBJECT: Plane.110_Plane.111
+Material: Grass
+
+OBJECT: Plane.111_Plane.112
+Material: Grass
+
+OBJECT: Plane.082_Plane.083
+Material: Grass
+
+OBJECT: Plane.083_Plane.084
+Material: Grass
+
+OBJECT: Plane.084_Plane.085
+Material: Grass
+
+OBJECT: Plane.085_Plane.086
+Material: Grass
+
+OBJECT: Plane.086_Plane.087
+Material: Grass
+
+OBJECT: Plane.087_Plane.088
+Material: Grass
+
+OBJECT: Plane.088_Plane.089
+Material: Grass
+
+OBJECT: Plane.089_Plane.090
+Material: Grass
+
+OBJECT: Plane.090_Plane.091
+Material: Grass
+
+OBJECT: Plane.091_Plane.092
+Material: Grass
+
+OBJECT: Plane.092_Plane.093
+Material: Grass
+
+OBJECT: Plane.093_Plane.094
+Material: Grass
+
+OBJECT: Plane.094_Plane.095
+Material: Grass
+
+OBJECT: Plane.095_Plane.096
+Material: Grass
+
+OBJECT: Plane.096_Plane.097
+Material: Grass
+
+OBJECT: Plane.097_Plane.098
+Material: Grass
+
+OBJECT: Plane.098_Plane.099
+Material: Grass
+
+OBJECT: Plane.099_Plane.100
+Material: Grass
+
+OBJECT: Plane.100_Plane.101
+Material: Grass
+
+OBJECT: Plane.101_Plane.102
+Material: Grass
+
+OBJECT: Plane.141_Plane.142
+Material: Grass
+
+OBJECT: Plane.150_Plane.151
+Material: Grass
+
+OBJECT: Plane.121_Plane.122
+Material: Grass
+
+OBJECT: Plane.122_Plane.123
+Material: Grass
+
+OBJECT: Plane.123_Plane.124
+Material: Grass
+
+OBJECT: Plane.124_Plane.125
+Material: Grass
+
+OBJECT: Plane.125_Plane.126
+Material: Grass
+
+OBJECT: Plane.126_Plane.127
+Material: Grass
+
+OBJECT: Plane.127_Plane.128
+Material: Grass
+
+OBJECT: Plane.128_Plane.129
+Material: Grass
+
+OBJECT: Plane.129_Plane.130
+Material: Grass
+
+OBJECT: Plane.130_Plane.131
+Material: Grass
+
+OBJECT: Plane.131_Plane.132
+Material: Grass
+
+OBJECT: Plane.132_Plane.133
+Material: Grass
+
+OBJECT: Plane.133_Plane.134
+Material: Grass
+
+OBJECT: Plane.134_Plane.135
+Material: Grass
+
+OBJECT: Plane.135_Plane.136
+Material: Grass
+
+OBJECT: Plane.136_Plane.137
+Material: Grass
+
+OBJECT: Plane.137_Plane.138
+Material: Grass
+
+OBJECT: Plane.138_Plane.139
+Material: Grass
+
+OBJECT: Plane.139_Plane.140
+Material: Grass
+
+OBJECT: Plane.140_Plane.141
+Material: Grass
+
+OBJECT: Plane.153_Plane.154
+Material: Grass
+
+OBJECT: Plane.154_Plane.155
+Material: Grass
+
+OBJECT: Plane.155_Plane.156
+Material: Grass
+
+OBJECT: Plane.156_Plane.157
+Material: Grass
+
+OBJECT: Plane.157_Plane.158
+Material: Grass
+
+OBJECT: Plane.158_Plane.159
+Material: Grass
+
+OBJECT: Plane.159_Plane.160
+Material: Grass
+
+OBJECT: Plane.160_Plane.161
+Material: Grass
+
+OBJECT: Plane.161_Plane.162
+Material: Grass
+
+OBJECT: Plane.162_Plane.163
+Material: Grass
+
+OBJECT: Plane.163_Plane.164
+Material: Grass
+
+OBJECT: Plane.164_Plane.165
+Material: Grass
+
+OBJECT: Plane.165_Plane.166
+Material: Grass
+
+OBJECT: Plane.166_Plane.167
+Material: Grass
+
+OBJECT: Plane.167_Plane.168
+Material: Grass
+
+OBJECT: Plane.168_Plane.169
+Material: Grass
+
+OBJECT: Plane.170_Plane.171
+Material: Grass
+
+OBJECT: Plane.188_Plane.190
+Material: Grass
+
+OBJECT: Plane.189_Plane.191
+Material: Grass
+
+OBJECT: Plane.190_Plane.192
+Material: Grass
+
+OBJECT: Plane.191_Plane.193
+Material: Grass
+
+OBJECT: Plane.192_Plane.194
+Material: Grass
+
+OBJECT: Plane.193_Plane.195
+Material: Grass
+
+OBJECT: Plane.194_Plane.196
+Material: Grass
+
+OBJECT: Plane.195_Plane.197
+Material: Grass
+
+OBJECT: Plane.196_Plane.198
+Material: Grass
+
+OBJECT: Plane.197_Plane.199
+Material: Grass_fst_718dh066c5m.jpg
+
+OBJECT: Plane.198_Plane.200
+Material: Grass
+
+OBJECT: Plane.199_Plane.201
+Material: Grass
+
+OBJECT: Plane.200_Plane.202
+Material: Grass
+
+OBJECT: Plane.201_Plane.203
+Material: Grass
+
+OBJECT: Plane.202_Plane.204
+Material: Grass
+
+OBJECT: Plane.203_Plane.205
+Material: Grass
+
+OBJECT: Plane.204_Plane.206
+Material: Grass
+
+OBJECT: Plane.205_Plane.207
+Material: Grass
+
+OBJECT: Cube.008
+Material: OuterWall
+
+OBJECT: Plane.210_Plane.212
+Material: None
+
+OBJECT: Plane.211_Plane.213
+Material: None
+
+OBJECT: Plane.213_Plane.215
+Material: None
+
+OBJECT: Plane.215_Plane.217
+Material: None
+
+OBJECT: Plane.217_Plane.219
+Material: InnerWall
+
+OBJECT: Plane.219_Plane.220
+Material: None
+
+OBJECT: Plane.222_Plane.223
+Material: None
+
+OBJECT: Plane.224_Plane.225
+Material: WindowPane
+
+OBJECT: Cube.011
+Material: None
+
+OBJECT: Plane.226_Plane.227
+Material: WindowPane
+
+OBJECT: Plane.227_Plane.228
+Material: WindowPane
+
+OBJECT: Plane.229_Plane.230
+Material: WindowPane
+
