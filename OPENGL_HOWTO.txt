@@ -1,0 +1,98 @@
+************************************************************************
+***** SETTING UP OPENGL TO RUN UNDER VISUAL STUDIO 2013 ON WINDOWS *****
+************************************************************************
+
+Download and unzip the cs432Windows.zip from the course website to, for
+example, your desktop. This will create a folder cs432Windows that contains
+two subfolders: freeglut and glew-1.7.0. We will be using the two
+subfolders several times.
+
+Run Visual Studio 2013.
+
+Create a project:
+  - FILE->New->Project...
+    - select "Empty Project"
+    - near bottom:
+      - type in name for your project
+      - browse for a location for your project (e.g., the desktop)
+      - make sure "Create directory for solution" is checked
+      - OK
+
+Attempt to build the project:
+  - BUILD->Build Solution
+    - whether or not this succeeds does not matter, but it creates a "Debug"
+      directory in your project
+
+Add the FreeGlut and GLEW DLLs to the project.
+  - use Windows to open the project folder (e.g., on the desktop)
+  - open the Debug folder
+  - copy the freeglut.dll file from freeglut/bin into the Debug folder
+    - (ignore the x64 subfolder)
+  - copy the glew32.dll file from the glew-1.7.0/bin folder into the Debug
+    folder
+
+Specify the include-file folders for FreeGlut and GLEW:
+  - Go back to Visual Studio
+  - PROJECT->Properties (It may be PROJECT->properities..., where XXX is
+    your project name)
+    - in left pane
+      - expand "Configuration Properties"
+      - expand C/C++
+      - click on "General"
+    - in right (large) pane
+      - click on "Additional Include Directories"
+        - browse for and add the freeglut/include and glew-1.7.0/include
+	  directories to the list
+        - the interface for doing this is horrid:
+          - click on down-arrow near the right column to open a pop-down menu
+          - click on <Edit...>
+            - click folder-icon, then the "..." icon to browse
+            - browse to folder
+            - "Select Folder" button
+        - "OK" button gl
+
+Specify the library folders for FreeGlut and GLEW:
+  - (while still in the Property page)
+  - in left pane
+    - expand "Linker"
+    - click on "General"
+  - in right pane:
+    - click on "Additional Library Directories"
+    - using same horrid interface as above, browse to and add the
+      freeglut/lib and glew-1.7.0/lib directories
+  - "OK" button
+
+Specify the names of the library files for FreeGlut and GLEW:
+  - (while still in the "XXX Property Pages" page)
+  - in left pane
+    - expand "Linker" (if not already expanded)
+    - click on "Input"
+  - in right pane:
+    - click on "Additional Dependencies"
+    - using same horrid interface as above, add freeglut.lib and glew32.lib;
+      this time you don't browse, but just type them in on separate lines
+  - "OK" button
+
+Finally, press the "OK" button again to get back to the main project.
+  
+At this point, the project is set up to run OpenGL programs:
+  - you can add new .h and .cpp files by right-clicking on the "Header Files"
+    or "Source Files" and selecting Add->NewItem...
+  - You can import existing .h and .cpp files similarly by selecting
+    Add->ExistingItem... and browsing.
+    - Note that this does not make a copy of the file, but simply
+      references it. Edits made on the file via Visual Studio will actually
+      be made to the original file.
+    - If you are using a university lab computer, this should work out
+      nicely, as you can keep your source files on your P-drive, and you
+      won't lose your work.
+      - If you had done an Add->NewItem..., you need to remember to copy
+        it back before logging off the university computer. It would be
+	better to create an empty file on your P-drive, and then use
+	Add->ExistingItem...
+
+You'll need to include
+  #include <GL/glew.h>
+  #include <GL/freeglut.h>
+  #include <GL/freeglut_ext.h>
+but if you include cs432.h, they will be included automatically.
